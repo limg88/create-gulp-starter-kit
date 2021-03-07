@@ -1,0 +1,40 @@
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons-wrapper {
+  transform: translate(5rem, -9rem);
+}
+
+.social-icon {
+  color: #fff;
+}
+
+ul.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons {
+  li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube,
+.fa-linkedin,
+.fa-github {
+  padding: 10px 10px;
+  transition: .5s;
+  background-color: #101010;
+}

@@ -6,22 +6,37 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   transition: background-color .3s linear;
-  background-color: #101010; 
+  background-color: #101010;
 }
-  
 
-.title {
-  font-size: 8rem;
-  font-weight: 100;
-  color: #ffffff
-}
-  
-.description strong {
-  display: block;
-  margin-top: 3%;
-  font-size: 3rem;
-  font-weight: 300;
-  color: #ffffff;
+.info-wrapper {
+  margin-left: -4rem;
+  transform: rotate(90deg);
+  .email,
+  .phone,
+  .job-title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .job-title {
+    margin-left: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .phone {
+    text-align: right;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: #101010;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 4rem;
+  }
 }

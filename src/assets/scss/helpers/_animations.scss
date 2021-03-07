@@ -1,0 +1,82 @@
+.glitch {
+  color: #ffffff;
+  font-size: 100px;
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+}
+
+a.phone.glitch{
+    width: 100px !important;
+  }
+
+@keyframes noise-anim {
+  $steps: 20;
+
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      $top: random(100);
+      $bottom: random(101 - $top);
+      $topWithPercent: $top * 1%;
+      $bottomWithPercent: $bottom * 1%;
+      clip-path: inset(#{$topWithPercent} 0 #{$bottomWithPercent} 0);
+    }
+  }
+}
+
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 #101010;
+  top: 0;
+  color: #ffffff;
+  background: #101010;
+  overflow: hidden;
+  animation: noise-anim 2s linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  $steps: 20;
+
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      $top: random(100);
+      $bottom: random(101 - $top);
+      $topWithPercent: $top * 1%;
+      $bottomWithPercent: $bottom * 1%;
+      clip-path: inset(#{$topWithPercent} 0 #{$bottomWithPercent} 0);
+    }
+  }
+}
+
+.glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: #ffffff;
+  background: #101010;
+  overflow: hidden;
+  animation: noise-anim-2 15s linear alternate-reverse;
+}
+
+.slide-left {
+  animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+@keyframes slide-left {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
