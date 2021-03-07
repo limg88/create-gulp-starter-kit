@@ -1,0 +1,27 @@
+@import '../_includes';
+
+body {
+  display: flex;
+  padding: 3%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color .3s linear;
+  background-color: #101010; 
+}
+  
+
+.title {
+  font-size: 8rem;
+  font-weight: 100;
+  color: #ffffff
+}
+  
+.description strong {
+  display: block;
+  margin-top: 3%;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ffffff;
+}
