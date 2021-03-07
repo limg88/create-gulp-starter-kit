@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: jr-cologne
+assignees: limg88
 
 ---
 
@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Environment (please complete the following information):**
 - Node Version: [e.g. 10]
 - Gulp Version: [e.g. 4.0.2]
-- Gulp Starter Kit Version: [e.g. 0.11.0-beta]
+- Gulp Starter Kit Version: [e.g. 0.0.1]
 - Version of any other affected dependency: [e.g. browser-sync@2.26.5]
 
 **OS (please complete the following information):**

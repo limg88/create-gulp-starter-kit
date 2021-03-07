@@ -1,6 +1,6 @@
 {
-  "name": "@jr-cologne/create-gulp-starter-kit",
-  "version": "0.11.0-beta",
+  "name": "@limg88/create-gulp-starter-kit",
+  "version": "0.0.1",
   "description": "A simple Gulp 4 Starter Kit for modern web development.",
   "keywords": [
     "gulp",
@@ -28,19 +28,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jr-cologne/gulp-starter-kit.git"
+    "url": "https://github.com/limg88/gulp-starter-kit.git"
   },
-  "author": "JR Cologne",
+  "author": "Giovanni Limatola",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jr-cologne/gulp-starter-kit/issues"
+    "url": "https://github.com/limg88/gulp-starter-kit/issues"
   },
-  "homepage": "https://github.com/jr-cologne/gulp-starter-kit",
-  "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "browser-sync": "^2.26.10",
-    "del": "^5.1.0",
+  "homepage": "https://github.com/limg88/gulp-starter-kit",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "axios": "^0.21.1",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "fs-extra": "^9.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -52,16 +54,12 @@
     "gulp-plumber": "^1.2.1",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-stylus": "^2.7.0",
     "gulp-uglify": "^3.0.2",
-    "webpack-stream": "^5.2.1"
-  },
-  "dependencies": {
-    "axios": "^0.19.2",
-    "fs-extra": "^9.0.1"
+    "webpack-stream": "^6.1.2"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14.16.0"
   }
 }

@@ -1,5 +1,4 @@
 # Gulp Starter Kit
-[![npm](https://img.shields.io/npm/v/@jr-cologne/create-gulp-starter-kit.svg)](https://www.npmjs.com/package/@jr-cologne/create-gulp-starter-kit)
 
 > A simple Gulp 4 Starter Kit for modern web development.
 
@@ -20,7 +19,7 @@ Here is a list of the current features:
 ## Requirements
 This should be installed on your computer in order to get up and running:
 
-- [Node.js](https://nodejs.org/en/) (Required node version is >= 10.0)
+- [Node.js](https://nodejs.org/en/) (Required node version is >= 14.16.0)
 - [Gulp 4](https://gulpjs.com/)
 
 ## Dependencies
@@ -53,11 +52,11 @@ In order to get started, make sure you are meeting all requirements listed above
 Then, just go ahead and download the Gulp Starter Kit. For this, you can choose between the following options:
 
 ### `npm init`
-The recommended way of downloading the Gulp Starter Kit uses the command `npm init` and the [`create-gulp-starter-kit` npm package](https://www.npmjs.com/package/@jr-cologne/create-gulp-starter-kit) as the initializer.
+The recommended way of downloading the Gulp Starter Kit uses the command `npm init` and the [`create-gulp-starter-kit` npm package](https://www.npmjs.com/package/@limg88/create-gulp-starter-kit) as the initializer.
 
 For this, just follow these steps:
 
-1. Execute `npm init @jr-cologne/gulp-starter-kit your-project-name`. This creates a folder called `your-project-name` (change that to your project name) at the current location where your terminal / command prompt is pointing to. Moreover, this initializes your project and installs all dependencies.
+1. Execute `npm init @limg88/gulp-starter-kit your-project-name`. This creates a folder called `your-project-name` (change that to your project name) at the current location where your terminal / command prompt is pointing to. Moreover, this initializes your project and installs all dependencies.
 2. Change your working directory to your project folder by executing `cd your-project-name`.
 3. Spin up your web development environment with the command `npm start`.
 4. Start coding!
@@ -65,7 +64,7 @@ For this, just follow these steps:
 In case you are lazy, just use this command:
 
 ```bash
-npm init @jr-cologne/gulp-starter-kit your-project-name && cd your-project-name && npm start
+npm init @limg88/gulp-starter-kit your-project-name && cd your-project-name && npm start
 ```
 
 ### `git clone`
@@ -73,7 +72,7 @@ The other way of downloading the Gulp Starter Kit is by cloning this Git reposit
 
 Then, follow these instructions:
 
-1. Execute `git clone https://github.com/jr-cologne/gulp-starter-kit.git your-project-name`. This creates a folder called `your-project-name` (change that to your project name) at the current location where your terminal / command prompt is pointing to.
+1. Execute `git clone https://github.com/limg88/gulp-starter-kit.git your-project-name`. This creates a folder called `your-project-name` (change that to your project name) at the current location where your terminal / command prompt is pointing to.
 2. Change your working directory to your project folder by executing `cd your-project-name`.
 3. Install all dependencies by executing `npm install`.
 4. Spin up your web development environment with the command `npm start`.
@@ -82,7 +81,7 @@ Then, follow these instructions:
 If you are lazy, just do everything at once:
 
 ```bash
-git clone https://github.com/jr-cologne/gulp-starter-kit.git your-project-name && cd your-project-name && npm install && npm start
+git clone https://github.com/limg88/gulp-starter-kit.git your-project-name && cd your-project-name && npm install && npm start
 ```
 
 ## Usage / FAQ
@@ -91,7 +90,7 @@ You can install the Gulp Starter Kit into the current working directory by appen
 
 Example:
 ```bash
-npm init @jr-cologne/gulp-starter-kit your-project-name --current-dir
+npm init @limg88/gulp-starter-kit your-project-name --current-dir
 ```
 
 ### What kinds of build scripts does the Gulp Starter Kit offer?
@@ -162,4 +161,4 @@ Please make sure to **follow the process below** in order to contribute to this 
 This project uses the rules of semantic versioning. For more information, visit [semver.org](https://semver.org/).
 
 ## License
-This project is licensed under the [MIT License](https://github.com/jr-cologne/gulp-starter-kit/blob/master/LICENSE).
+This project is licensed under the [MIT License](https://github.com/limg88/gulp-starter-kit/blob/master/LICENSE).
